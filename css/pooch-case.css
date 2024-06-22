@@ -1,0 +1,50 @@
+
+/* //dropdown */
+
+/* learn couch menu styling */
+
+.main-navigation .menu-item-has-children::after {
+    position: absolute;
+    right: -15px;
+    top: 3px;
+    display: inline-block;
+    content: "\f107";
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+}
+
+.menu-item-has-children::after {
+    position: absolute;
+    right: 5px;
+    top: 20px;
+    display: inline-block;
+    content: "\f107";
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    color: #999;
+}
+
+.nav-fixed .menu-item-has-children::after {
+    color: var(--heading-color);
+    opacity: 0.7;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item.dropdown {
+    padding-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
